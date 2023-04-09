@@ -1,0 +1,81 @@
+body{
+ font-family : ;
+}
+/****************
+   navbar
+
+**************/
+nav{
+background; color: #fff!important
+box shadow 1px 1px 1px #444
+};
+nav.navbar-brand{
+    color: var(--bs-orange)!important;
+}
+.navbar.nav.navbar.link{
+    font-size: 18px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+.navbar-toggler{
+    outline: none !important;
+    padding: none !important;
+}
+/****************
+    carousel
+***************/
+
+.carosel-inner .carousel-item{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.carousel-item .carousel-item::before{
+    content: ;
+    background-color: black 12, 11,10, 0,5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.carousel-item .carousel-caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 40%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.carousel-item .carousel-caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 40;
+    right: 0;
+}
+.carosel-inner .carsoul .caption span{
+
+color: var(--bs-orange);
+
+}
+
+.carosel-inner .carsoul .caption h2{
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 42px;
+    font-weight: 600;
+    width: 80%;
+    margin: 0px auto 30px auto;
+}
+
